@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;     
+    margin: 0;            
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;     
+    width:500px;
+}
+
+#quoteContainer {
+    margin-top: 20px;
+    width:400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+#quoteText {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+img {
+    max-width: 300px; 
+    height: auto;      
+    display: block;   
+    margin: 0 auto;   
+}
+
+#regenerateButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#karuthuButton{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
